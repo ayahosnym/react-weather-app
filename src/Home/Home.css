@@ -1,0 +1,16 @@
+/*
+ * Home css File
+*/
+
+.home {
+    width: 95%;
+   min-height: 95vh;
+    box-shadow: 3px 3px 10px #d4d4d485;
+    padding: 5rem 0;
+    background-image: linear-gradient(to right, #55BDCA, #8BD5DE, #B6E7EC, #C7EEF5);
+}
+
+.title {
+    position: relative;
+    color: #F07C41;
+}

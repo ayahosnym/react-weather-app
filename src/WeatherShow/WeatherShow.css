@@ -1,0 +1,50 @@
+/*
+ * WeatherShow css File
+*/
+
+.WeatherShow {
+    /* propertys here */
+}
+
+.card-weather {
+    min-height: 20rem;
+    border-radius: 8px;
+    border: 2px solid #C7EEF5;
+}
+.clip{
+    position: relative;
+    display: inline-block;
+    top: -3px;
+    border-radius: 5px;
+    
+}
+.clip-top {
+    clip-path: polygon(0 100%, 100% 0, 0 0);
+    background: #55BDCA;
+    width: 55px;
+    height: 55px;
+    left: -3px;
+    display: inline-block;
+    z-index: 10;
+}
+
+.clip-down {
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+     background: #e1ebf6; 
+    width: 56px;
+    height: 56px;
+    right: 58px;
+}
+
+li {
+    margin-bottom: 2rem;
+    color: #F07C41;
+    font-weight: bold;
+}
+
+li span {
+    display: inline-block;
+    margin-left: 1rem;
+    color: #ffffff;
+}
